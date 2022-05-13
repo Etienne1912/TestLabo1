@@ -13,6 +13,8 @@ public class BonjourNom {
         System.out.println("Bonjour Monde!");
         Person personne1 = new Person("Jean","Jacques",37);
         System.out.println(personne1.getFirstName() + personne1.getLastName());
+        Person personne2 = new Person ("Paul","Pierre",44);
+        System.out.println(personne2.getFirstName() + personne2.getLastName());
     }
 
 }
